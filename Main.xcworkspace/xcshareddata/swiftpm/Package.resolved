@@ -1,0 +1,42 @@
+{
+  "originHash" : "ff8d2adc0e3766dfdc8b3c6f9f11aa9decded93b24b44953b192b55b330aa98b",
+  "pins" : [
+    {
+      "identity" : "inject",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/krzysztofzablocki/Inject.git",
+      "state" : {
+        "revision" : "728c56639ecb3df441d51d5bc6747329afabcfc9",
+        "version" : "1.5.2"
+      }
+    },
+    {
+      "identity" : "kzfilewatchers",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/krzysztofzablocki/KZFileWatchers.git",
+      "state" : {
+        "revision" : "d27a9557427d261adccdf4b566acc9d9c0fec6f4",
+        "version" : "1.2.0"
+      }
+    },
+    {
+      "identity" : "playbook-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/playbook-ui/playbook-ios",
+      "state" : {
+        "revision" : "ef0398b4dd394f0b6f23c6a6d96b1f7c00632aa0",
+        "version" : "0.4.2"
+      }
+    },
+    {
+      "identity" : "roadmap",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AvdLee/Roadmap.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "faacea19bfa486f6ceef5ed191bd5662a77a6643"
+      }
+    }
+  ],
+  "version" : 3
+}
