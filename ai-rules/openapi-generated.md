@@ -5,8 +5,6 @@ alwaysApply: true
 ---
 # OpenAPI Generated Code & Spec Guardrails
 
-> **PROJECT STATUS NOTE**: API modules (ApiClient, ApiServer, ApiShared) have been removed from this project. This document serves as reference for future OpenAPI-based implementations.
-
 <objective>
 Agents MUST NEVER modify OpenAPI-generated Swift sources or OpenAPI YAML specs.
 When changes seem necessary, propose safe extension points or a migration plan

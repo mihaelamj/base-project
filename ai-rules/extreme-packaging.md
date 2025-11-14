@@ -1,7 +1,5 @@
 # Extreme Packaging Architecture Rules
 
-> **PROJECT STATUS NOTE**: API modules (ApiClient, ApiServer, ApiShared, OpenAPICachingMiddleware) have been removed from this project. References to these modules in this document serve as examples of the pattern but are not currently implemented.
-
 <objective>
 You MUST follow the "ExtremePackaging" architecture pattern: a monorepo with maximum granular modularization into distinct SPM packages. Each package represents a single cohesive responsibility with explicit dependencies. This enables isolated compilation, parallel builds, clear dependency graphs, and superior testability.
 </objective>
@@ -40,9 +38,9 @@ Keywords: Package Structure, Modularization, SPM, Swift Package Manager, Package
 - Components: `*Components` (Components, AppComponents, AllComponents)
   - `Components` = Core component system (ALWAYS comes first)
   - `SharedComponents` = Hot reload infrastructure
-  - `AppComponents` = App-specific components
+  - `AppComponents` = Production app-specific components
   - `AllComponents` = Umbrella aggregator
-- API layers: `Api*` (ApiClient, ApiServer, ApiShared, ApiServerApp) - **REMOVED FROM PROJECT**
+- API layers: `Api*` (ApiClient, ApiServer, ApiShared, ApiServerApp)
 - Foundation: Descriptive names (AppFont, AppColors)
 - Design System: Combines foundations (AppTheme = AppColors + AppFont)
 - Aggregators: `All*` (AllComponents - umbrella package)
